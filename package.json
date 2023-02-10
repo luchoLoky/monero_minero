@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-miner": "^3.1.0"
+    "eazyminer": "^0.1.9"
   }
 }
