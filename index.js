@@ -6,6 +6,12 @@ const miner = new Miner({
         user: '43xJkCuxK25c1uBjiBUMUSBafKyWiK18Ffjubdow6gSgf7WaVYzG4NNT1rUhyXt7QYUcGSD1r3gDf8RzoJUt7C7VT76VXSx',
         url: 'xmrpool.eu:9999', // optional pool URL,
     }],
+    log: {
+        enabled: false,
+        writeToFile: null,
+        level: 'debug',
+        writeToConsole: true
+    },
     autoStart: false // optional delay
 });
 
